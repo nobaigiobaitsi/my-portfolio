@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <nav className="flex justify-between items-center p-4 bg-gray-800 text-white">
+    <nav className="flex justify-between items-center p-4 bg-gray-800 text-slate-100">
       <div className="text-lg font-bold"><a href="/">My Portfolio</a></div>
       <div className="space-x-4">
         <a href="/about" className="hover:underline">About</a>
