@@ -4,6 +4,7 @@ import { FaJava, FaPython, FaNodeJs, FaGitAlt, FaHtml5, FaLinkedinIn } from "rea
 import { VscVscode, VscGithubInverted } from "react-icons/vsc";
 import { DiVisualstudio, DiJavascript1 } from "react-icons/di";
 import { TbSql, TbBrandCSharp, TbFileCv } from "react-icons/tb";
+import { MdAccountTree } from "react-icons/md";
 import AnimatedSection from "@/components/AnimatedSection";
 
 export default function HomePage() {
@@ -19,10 +20,10 @@ export default function HomePage() {
           Software Developer
         </p>
         <div className="flex justify-center gap-4 mt-4">
-          <Link href="/projects" className="inline-block mt-4 bg-blue-500 hover:bg-blue-600 text-[#e0e6ed] px-6 py-2 rounded-lg shadow-md transition">
+          <Link href="/projects" className="inline-block bg-gradient-to-r from-sky-500 to-cyan-400 hover:from-sky-600 hover:to-cyan-500 text-[#0a0a23] font-semibold px-8 py-3 rounded-full shadow-lg hover:shadow-cyan-400/30 transition-transform transform hover:scale-105">
             My Projects
           </Link>
-          <Link href="/contact" className="inline-block mt-4 bg-blue-500 hover:bg-blue-600 text-[#e0e6ed] px-6 py-2 rounded-lg shadow-md transition">
+          <Link href="/contact" className="inline-block bg-gradient-to-r from-sky-500 to-cyan-400 hover:from-sky-600 hover:to-cyan-500 text-[#0a0a23] font-semibold px-8 py-3 rounded-full shadow-lg hover:shadow-cyan-400/30 transition-transform transform hover:scale-105">
             Contact
           </Link>
         </div>
@@ -64,7 +65,7 @@ export default function HomePage() {
               <li><FaNodeJs className="inline mr-1 text-sky-400" title="Node.js" /> Node.js</li>
               <li><SiDjango className="inline mr-1 text-sky-400" title="Django" /> Django</li>
               <li><TbSql className="inline mr-1 text-sky-400" title="SQL" /> SQL</li>
-              <li>REST APIs</li>
+              <li><MdAccountTree className="inline mr-1 text-sky-400" title="REST APIs" /> REST APIs</li>
             </ul>
           </div>
 
@@ -137,16 +138,26 @@ export default function HomePage() {
         </section>
       </AnimatedSection>
 
-
       <AnimatedSection>
-      <section className="mt-12 py-12 border-t border-gray-700 text-center">
-        <h2 className="text-2xl font-bold text-[#e0e6ed] mb-4">Want to work together?</h2>
-        <p className="text-gray-400 mb-6">I am looking for full-time opportunities but I am also open to freelance work and collaboration.</p>
-        <Link href="/contact" className="inline-block mt-4 bg-blue-500 hover:bg-blue-600 text-[#e0e6ed] px-6 py-2 rounded-lg shadow-md transition">
-          Contact Me
-        </Link>
-      </section>
+        <section className="mt-12 py-16 text-center bg-[#1e1e30] rounded-lg shadow-inner relative overflow-hidden">
+
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-cyan-300 mb-4 pb-2">
+            Let&apos;s Work Together
+          </h2>
+
+          <p className="text-gray-400 mb-8">
+            I am currently open to full-time positions, internships, or freelance gigs. Let&apos;s create something amazing.
+          </p>
+
+          <Link
+            href="/contact"
+            className="inline-block bg-gradient-to-r from-sky-500 to-cyan-400 hover:from-sky-600 hover:to-cyan-500 text-[#0a0a23] font-semibold px-8 py-3 rounded-full shadow-lg hover:shadow-cyan-400/30 transition-transform transform hover:scale-105"
+          >
+            Contact Me
+          </Link>
+        </section>
       </AnimatedSection>
+
 
     </main>
   );
