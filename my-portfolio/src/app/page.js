@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { SiReact, SiTailwindcss, SiNextdotjs, SiDjango } from "react-icons/si";
-import { FaJava, FaPython, FaNodeJs, FaGitAlt, FaHtml5 } from "react-icons/fa";
+import { FaJava, FaPython, FaNodeJs, FaGitAlt, FaHtml5, FaLinkedinIn } from "react-icons/fa";
 import { VscVscode, VscGithubInverted } from "react-icons/vsc";
 import { DiVisualstudio, DiJavascript1 } from "react-icons/di";
 import { TbSql, TbBrandCSharp } from "react-icons/tb";
@@ -14,35 +14,28 @@ export default function HomePage() {
       <section className="text-center py-12 border-t border-gray-700">
         <h1 className="text-4xl font-bold mb-2">Stavros Angelopoulos</h1>
         <p className="text-lg text-gray-400">Aspiring Software Developer</p>
-        <Link href="/projects" className="inline-block mt-4 bg-blue-500 hover:bg-blue-600 text-[#e0e6ed] px-6 py-2 rounded-lg shadow-md transition">
-          My Projects
-        </Link>
-        <Link href="/contact" className="inline-block mt-4 bg-blue-500 hover:bg-blue-600 text-[#e0e6ed] m-2 px-6 py-2 rounded-lg shadow-md transition">
-          Contact
-        </Link>
+        <div className="flex justify-center gap-4 mt-4">
+          <Link href="/projects" className="inline-block mt-4 bg-blue-500 hover:bg-blue-600 text-[#e0e6ed] px-6 py-2 rounded-lg shadow-md transition">
+            My Projects
+          </Link>
+          <Link href="/contact" className="inline-block mt-4 bg-blue-500 hover:bg-blue-600 text-[#e0e6ed] px-6 py-2 rounded-lg shadow-md transition">
+            Contact
+          </Link>
+        </div>
       </section>
       </AnimatedSection>
 
       <AnimatedSection>
       <section className="mb-12 py-12 border-t border-gray-700">
         <h2 className="text-2xl font-semibold mb-2">About Me</h2>
-        <p className="text-gray-500">
+        <p className="text-[#e0e6ed] bg-[#1f1f2e] p-6 rounded-lg mb-6 border border-[#2c2c3d] duration-300 ease-in-out hover:shadow-lg hover:border-sky-500 hover:shadow-sky-400/20 shadow-md transition-transform transform hover:scale-[1.03]">
           Although I studied Statistics, my true passion lies in software development. I am a passionate developer focused on building clean and efficient applications. Always following best practices and eager to learn new technologies and tools.
         </p>
-        <p className="text-gray-500">
-          I work with Java, JavaScript, Python, SQL, and C#, and I have built projects using frameworks like React, Next.js, Django, and WPF. I am equally comfortable on the frontend and backend, aiming to create seamless user experiences backed by solid logic and architecture.
+        <p className="text-[#e0e6ed] bg-[#1f1f2e] p-6 rounded-lg mb-6 border border-[#2c2c3d] duration-300 ease-in-out hover:shadow-lg hover:border-sky-500 hover:shadow-sky-400/20 shadow-md transition-transform transform hover:scale-[1.03]">
+          I work with <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-cyan-300 font-semibold">Java</span>, <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-cyan-300 font-semibold">JavaScript</span>, <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-cyan-300 font-semibold">Python</span>, <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-cyan-300 font-semibold">SQL</span>, and <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-cyan-300 font-semibold">C#</span>, and I have built projects using frameworks like <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-cyan-300 font-semibold">React</span>, <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-cyan-300 font-semibold">Next.js</span>, <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-cyan-300 font-semibold">Django</span>, and <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-cyan-300 font-semibold">WPF</span>. I am equally comfortable on the frontend and backend, aiming to create seamless user experiences backed by solid logic and architecture. I strive to learn as much as possible and stay updated with the latest trends in software development.
         </p>
-        <p className="text-gray-500">I love working with high-level languages and frameworks but also enjoy diving into lower-level programming when needed. </p>
-      </section>
-      </AnimatedSection>
-
-      <AnimatedSection>
-      <section className="mb-12 py-12 border-t border-gray-700">
-        <h2 className="text-2xl font-semibold mb-2">My links</h2>
-        <ul className="mb-4 space-y-2">
-          <li className="text-[#e0e6ed]">GitHub - <a href="https://github.com/nobaigiobaitsi" className="text-sky-600 hover:underline">nobaigiobaitsi</a></li>
-          <li className="text-[#e0e6ed]">LinkedIn - <a href="https://www.linkedin.com/in/s-angelopoulos/" className="text-sky-600 hover:underline">Stavros Angelopoulos</a></li>
-        </ul>
+        <p className="text-[#e0e6ed] bg-[#1f1f2e] p-6 rounded-lg mb-6 border border-[#2c2c3d] duration-300 ease-in-out hover:shadow-lg hover:border-sky-500 hover:shadow-sky-400/20 shadow-md transition-transform transform hover:scale-[1.03]">What makes me stand out is that I truly care about learning and growing as a developer. It started as a passion but now it has become my desired career path.</p>
+        <p className="text-[#e0e6ed] bg-[#1f1f2e] p-6 rounded-lg mb-6 border border-[#2c2c3d] duration-300 ease-in-out hover:shadow-lg hover:border-sky-500 hover:shadow-sky-400/20 shadow-md transition-transform transform hover:scale-[1.03]">On my free time, I enjoy cooking, exploring new cuisines, and experimenting with recipes. Also, I love watching movies and TV shows.</p>
       </section>
       </AnimatedSection>
 
@@ -54,19 +47,19 @@ export default function HomePage() {
           <div>
             <h3 className="font-medium text-[#e0e6ed]">Frontend</h3>
             <ul className="space-y-1 ">
-              <li><SiReact className="inline mr-1" title="React" /> React</li>
-              <li><SiNextdotjs className="inline mr-1" title="Next.js" /> Next.js</li>
-              <li><SiTailwindcss className="inline mr-1" title="Tailwind CSS" /> Tailwind CSS</li>
-              <li><FaHtml5 className="inline mr-1" title="HTML & CSS" /> HTML & CSS</li>
+              <li><SiReact className="inline mr-1 text-sky-400" title="React" /> React</li>
+              <li><SiNextdotjs className="inline mr-1 text-sky-400" title="Next.js" /> Next.js</li>
+              <li><SiTailwindcss className="inline mr-1 text-sky-400" title="Tailwind CSS" /> Tailwind CSS</li>
+              <li><FaHtml5 className="inline mr-1 text-sky-400" title="HTML & CSS" /> HTML & CSS</li>
             </ul>
           </div>
 
           <div>
             <h3 className="font-medium text-[#e0e6ed]">Backend</h3>
             <ul className="space-y-1">
-              <li><FaNodeJs className="inline mr-1" title="Node.js" /> Node.js</li>
-              <li><SiDjango className="inline mr-1" title="Django" /> Django</li>
-              <li><TbSql className="inline mr-1" title="SQL" /> SQL</li>
+              <li><FaNodeJs className="inline mr-1 text-sky-400" title="Node.js" /> Node.js</li>
+              <li><SiDjango className="inline mr-1 text-sky-400" title="Django" /> Django</li>
+              <li><TbSql className="inline mr-1 text-sky-400" title="SQL" /> SQL</li>
               <li>REST APIs</li>
             </ul>
           </div>
@@ -74,20 +67,20 @@ export default function HomePage() {
           <div>
             <h3 className="font-medium text-[#e0e6ed]">Languages</h3>
             <ul className="space-y-1">
-              <li><FaJava className="inline mr-1" title="Java" /> Java</li>
-              <li><DiJavascript1 className="inline mr-1" title="JavaScript" /> JavaScript</li>
-              <li><FaPython className="inline mr-1" title="Python" /> Python</li>
-              <li><TbBrandCSharp className="inline mr-1" title="C#" /> C#</li>
+              <li><FaJava className="inline mr-1 text-sky-400" title="Java" /> Java</li>
+              <li><DiJavascript1 className="inline mr-1 text-sky-400" title="JavaScript" /> JavaScript</li>
+              <li><FaPython className="inline mr-1 text-sky-400" title="Python" /> Python</li>
+              <li><TbBrandCSharp className="inline mr-1 text-sky-400" title="C#" /> C#</li>
             </ul>
           </div>
 
           <div>
             <h3 className="font-medium text-[#e0e6ed]">Tools</h3>
             <ul className="space-y-1">
-              <li><FaGitAlt className="inline mr-1" title="Git" /> Git</li>
-              <li><VscGithubInverted className="inline mr-1" title="GitHub" /> GitHub</li>
-              <li><VscVscode className="inline mr-1" title="Visual Studio Code" /> Visual Studio Code</li>
-              <li><DiVisualstudio className="inline mr-1" title="Visual Studio" /> Visual Studio</li>
+              <li><FaGitAlt className="inline mr-1 text-sky-400" title="Git" /> Git</li>
+              <li><VscGithubInverted className="inline mr-1 text-sky-400" title="GitHub" /> GitHub</li>
+              <li><VscVscode className="inline mr-1 text-sky-400" title="Visual Studio Code" /> Visual Studio Code</li>
+              <li><DiVisualstudio className="inline mr-1 text-sky-400" title="Visual Studio" /> Visual Studio</li>
             </ul>
           </div>
         </div>
@@ -95,10 +88,45 @@ export default function HomePage() {
       </AnimatedSection>
 
       <AnimatedSection>
+        <section className="mb-12 py-12 border-t border-gray-700">
+          <h2 className="text-2xl font-semibold mb-6 text-center">My Links</h2>
+
+          <div className="flex flex-col sm:flex-row justify-center items-center gap-6">
+            <a
+              href="https://github.com/nobaigiobaitsi"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-4 bg-[#1f1f2e] border border-[#2c2c3d] hover:border-sky-500 hover:shadow-sky-400/20 shadow-md p-4 rounded-lg transition-transform transform hover:scale-[1.03]"
+            >
+              <VscGithubInverted className="text-3xl text-sky-400" />
+              <div>
+                <p className="text-[#e0e6ed] font-semibold">GitHub</p>
+                <p className="text-sm text-gray-400">nobaigiobaitsi</p>
+              </div>
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/s-angelopoulos/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-4 bg-[#1f1f2e] border border-[#2c2c3d] hover:border-sky-500 hover:shadow-sky-400/20 shadow-md p-4 rounded-lg transition-transform transform hover:scale-[1.03]"
+            >
+              <FaLinkedinIn className="text-3xl text-sky-400" />
+              <div>
+                <p className="text-[#e0e6ed] font-semibold">LinkedIn</p>
+                <p className="text-sm text-gray-400">Stavros Angelopoulos</p>
+              </div>
+            </a>
+          </div>
+        </section>
+      </AnimatedSection>
+
+
+      <AnimatedSection>
       <section className="mt-12 py-12 border-t border-gray-700 text-center">
         <h2 className="text-2xl font-bold text-[#e0e6ed] mb-4">Want to work together?</h2>
-        <p className="text-gray-400 mb-6">I am open to freelance work, collaboration, or full-time opportunities.</p>
-        <Link href="/contact" className="bg-sky-600 hover:bg-sky-700 text-white px-6 py-3 rounded-lg transition">
+        <p className="text-gray-400 mb-6">I am looking for full-time opportunities but I am also open to freelance work and collaboration.</p>
+        <Link href="/contact" className="inline-block mt-4 bg-blue-500 hover:bg-blue-600 text-[#e0e6ed] px-6 py-2 rounded-lg shadow-md transition">
           Contact Me
         </Link>
       </section>
