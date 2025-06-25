@@ -16,37 +16,84 @@ export default function ProjectsPage() {
         </section>
       </AnimatedSection>
 
-     {/* <AnimatedSection>
+        <AnimatedSection>
         <section className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 py-12 border-t border-gray-700">
-          {/* Project Card Example
+
           <div className="bg-[#1e1e30] rounded-lg border border-[#2c2c3d] p-6 hover:border-sky-500 hover:shadow-sky-400/20 shadow-md transition-transform transform hover:scale-[1.03]">
             <h3 className="text-xl font-semibold text-[#e0e6ed] mb-2">
               Inventory Management System
             </h3>
             <p className="text-gray-400 text-sm mb-4">
-              A full-featured inventory system built with Python and MySQL, featuring clean separation of logic and CLI interface.
+              A full-featured inventory system built with Django, Python and Tailwind CSS featuring 4 operations (Add Product, Update Product, Delete Product, View Products). It&apos;s designed to be user-friendly and efficient, helping users manage their inventory effortlessly.
             </p>
-            <p className="text-sm text-sky-400 mb-2">Python · MySQL · CLI</p>
+            <p className="text-sm text-sky-400 mb-2">Django · Python · Tailwind CSS</p>
             <div className="flex gap-4 mt-2">
               <a
-                href="https://github.com/your-username/inventory-system"
+                href="https://github.com/nobaigiobaitsi/inventory-django.git"
+                target="_blank"
+                className="text-blue-500 hover:underline text-sm"
+              >
+                GitHub
+              </a>
+            </div>
+          </div>
+        </section>
+      </AnimatedSection>
+
+              <AnimatedSection>
+        <section className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 py-12 border-t border-gray-700">
+
+          <div className="bg-[#1e1e30] rounded-lg border border-[#2c2c3d] p-6 hover:border-sky-500 hover:shadow-sky-400/20 shadow-md transition-transform transform hover:scale-[1.03]">
+            <h3 className="text-xl font-semibold text-[#e0e6ed] mb-2">
+              Greekend Transfers
+            </h3>
+            <p className="text-gray-400 text-sm mb-4">
+              A live website built for Greekend Transfers, a company offering transportation services, rentals, and tours across Greece. This site is built with React + Vite, JavaScript and classic CSS. It features a modern design, responsive layout, and smooth user experience, showcasing my skills in front-end development.
+            </p>
+            <p className="text-sm text-sky-400 mb-2">React · Vite · JavaScript · CSS</p>
+            <div className="flex gap-4 mt-2">
+              <a
+                href="https://github.com/nobaigiobaitsi/cars-transfer.git"
                 target="_blank"
                 className="text-blue-500 hover:underline text-sm"
               >
                 GitHub
               </a>
               <a
-                href="/projects/inventory"
+                href="https://www.greekendtransfers.com/"
+                target="_blank"
                 className="text-blue-500 hover:underline text-sm"
               >
-                Details
+                See the site
               </a>
             </div>
           </div>
-
-          {/* Duplicate and customize the card for other projects
         </section>
-      </AnimatedSection> */}
+      </AnimatedSection>
+
+              <AnimatedSection>
+        <section className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 py-12 border-t border-gray-700">
+
+          <div className="bg-[#1e1e30] rounded-lg border border-[#2c2c3d] p-6 hover:border-sky-500 hover:shadow-sky-400/20 shadow-md transition-transform transform hover:scale-[1.03]">
+            <h3 className="text-xl font-semibold text-[#e0e6ed] mb-2">
+              AI Powered Language Coach
+            </h3>
+            <p className="text-gray-400 text-sm mb-4">
+              In Progress. A language coaching web app built with Django and Python for the backend logic and React + Vite for the frontend. It contains a quiz generator and an essay feedback tool. It features a user-friendly interface and real-time feedback. Development will resume once I have access to a paid OpenAI API plan.
+            </p>
+            <p className="text-sm text-sky-400 mb-2">Django · Python · React · Vite</p>
+            <div className="flex gap-4 mt-2">
+              <a
+                href="https://github.com/nobaigiobaitsi/language-coach-django.git"
+                target="_blank"
+                className="text-blue-500 hover:underline text-sm"
+              >
+                GitHub
+              </a>
+            </div>
+          </div>
+        </section>
+      </AnimatedSection>
     </main>
   );
 }
