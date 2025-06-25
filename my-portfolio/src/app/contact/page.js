@@ -1,8 +1,6 @@
 'use client';
 import { FaGithub, FaLinkedin, FaPhone, FaEnvelope } from "react-icons/fa";
 
-import Link from "next/link";
-
 export default function ContactPage() {
   return (
     <main className="min-h-screen bg-gradient-to-br from-[#0a0a23] to-[#1a1a2e] text-[#e0e6ed] flex items-center justify-center px-4">
