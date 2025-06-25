@@ -14,11 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Portfolio - Stavros Angelopoulos",
+  title: "Stavros Angelopoulos - Portfolio",
   description: "A showcase of my work and projects",
-  icons: {
-    icon: "../public/custom-logo-dark-no-veh.png"
-  }
 };
 
 export default function RootLayout({ children }) {

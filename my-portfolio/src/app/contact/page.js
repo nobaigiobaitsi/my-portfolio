@@ -7,7 +7,7 @@ export default function ContactPage() {
   return (
     <main className="min-h-screen bg-gradient-to-br from-[#0a0a23] to-[#1a1a2e] text-[#e0e6ed] flex items-center justify-center px-4">
       <div className="w-full max-w-2xl p-8">
-        <h1 className="text-3xl font-bold mb-6 text-center">Get in Touch</h1>
+        <h1 className="text-3xl font-bold mb-6 text-center">My Contact Information</h1>
 
         <p className="text-gray-400 mb-6 text-center">
           Get in touch with me.
@@ -17,25 +17,28 @@ export default function ContactPage() {
           <p className="bg-[#35364F] p-4 rounded-lg">
             Email:{" "}
             <a href="mailto:stavros@example.com" className="text-sky-400 hover:underline">
-              stavros@example.com
+              steveangelopoulos@gmail.com
             </a>
           </p>
 
           <p className="bg-[#35364F] p-4 rounded-lg">
-            Location: Athens, Greece
+            Phone Number:{""}
+            <a href="" className="text-sky-400 hover:underline">
+              +30 697 5564 186
+            </a>
           </p>
 
           <p className="bg-[#35364F] p-4 rounded-lg">
             LinkedIn:{" "}
-            <a href="https://linkedin.com/in/yourprofile" className="text-sky-400 hover:underline">
-              linkedin.com/in/yourprofile
+            <a href="https://www.linkedin.com/in/s-angelopoulos/" className="text-sky-400 hover:underline">
+              linkedin.com/in/s-angelopoulos
             </a>
           </p>
 
           <p className="bg-[#35364F] p-4 rounded-lg">
             GitHub:{" "}
             <a href="https://github.com/yourusername" className="text-sky-400 hover:underline">
-              github.com/yourusername
+              github.com/nobaigiobaitsi
             </a>
           </p>
         </div>
