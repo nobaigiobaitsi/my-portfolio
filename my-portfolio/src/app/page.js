@@ -20,9 +20,19 @@ export default function HomePage() {
       <section className="mb-12">
         <h2 className="text-2xl font-semibold mb-2">About Me</h2>
         <p className="text-gray-500">
-          I am a passionate developer focused on building clean, efficient, and user-friendly applications. Currently working with React, Node.js, and Python.
+          I studied Statistics but my true love is software development. I am a passionate developer focused on building clean and efficient applications. Always following best practices and eager to learn new technologies and tools.
         </p>
-        <Link href="/about" className="inline-block text-sky-400 hover:underline mt-2">Read more</Link>
+        <p className="text-gray-500">
+          I love working with Java, JavaScript, Python, SQL and C#. I have experience with frameworks like React, Django, WPF, Next.js and many more. I focus on both the frontend and the backend, ensuring a seamless user experience and robust server-side logic.
+        </p>
+      </section>
+
+      <section>
+        <h2 className="text-2xl font-semibold mb-2">My links</h2>
+        <ul className="mb-4 space-y-2">
+          <li className="text-gray-500">GitHub - <a href="https://github.com/nobaigiobaitsi" className="text-sky-600 hover:underline">nobaigiobaitsi</a></li>
+          <li className="text-gray-500">LinkedIn - <a href="https://www.linkedin.com/in/stavros-angelopoulos-8b0b1a1b2/" className="text-sky-600 hover:underline">Stavros Angelopoulos</a></li>
+        </ul>
       </section>
 
       <hr className="border-gray-700" />
