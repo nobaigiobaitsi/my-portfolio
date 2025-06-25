@@ -3,6 +3,7 @@ export default function Navbar() {
     <nav className="flex sticky top-0 z-50 justify-between items-center p-4 bg-[#0a0a23] text-[#e0e6ed]">
       <div className="text-lg font-bold"><a href="/">My Portfolio</a></div>
       <div className="space-x-4">
+        <a href="/" className="hover:underline">Home</a>
         <a href="/projects" className="hover:underline">Projects</a>
         <a href="/contact" className="hover:underline">Contact</a>
       </div>
