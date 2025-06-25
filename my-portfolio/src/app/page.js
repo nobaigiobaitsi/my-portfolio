@@ -3,7 +3,7 @@ import { SiReact, SiTailwindcss, SiNextdotjs, SiDjango } from "react-icons/si";
 import { FaJava, FaPython, FaNodeJs, FaGitAlt, FaHtml5, FaLinkedinIn } from "react-icons/fa";
 import { VscVscode, VscGithubInverted } from "react-icons/vsc";
 import { DiVisualstudio, DiJavascript1 } from "react-icons/di";
-import { TbSql, TbBrandCSharp } from "react-icons/tb";
+import { TbSql, TbBrandCSharp, TbFileCv } from "react-icons/tb";
 import AnimatedSection from "@/components/AnimatedSection";
 
 export default function HomePage() {
@@ -115,6 +115,18 @@ export default function HomePage() {
               <div>
                 <p className="text-[#e0e6ed] font-semibold">LinkedIn</p>
                 <p className="text-sm text-gray-400">Stavros Angelopoulos</p>
+              </div>
+            </a>
+
+            <a
+              href="/Stavros_Angelopoulos_CV.pdf"
+              download
+              className="flex items-center gap-4 bg-[#1e1e30] border border-[#2c2c3d] hover:border-sky-500 hover:shadow-sky-400/20 shadow-md p-4 rounded-lg transition-transform transform hover:scale-[1.03]"
+            >
+              <TbFileCv className="text-3xl text-sky-400" title="CV" />
+              <div>
+                <p className="text-[#e0e6ed] font-semibold">CV</p>
+                <p className="text-sm text-gray-400">Download my CV</p>
               </div>
             </a>
           </div>
