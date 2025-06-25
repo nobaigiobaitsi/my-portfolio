@@ -12,7 +12,7 @@ export default function ContactPage() {
         </p>
 
         <div className="space-y-4 text-center">
-          <p className="bg-[#35364F] p-4 rounded-lg">
+          <p className="bg-[#1e1e30] p-4 rounded-lg">
             <FaEnvelope className="inline mr-2" />
             Email:{" "}
             <a href="mailto:steveangelopoulos@gmail.com" className="text-sky-400 hover:underline">
@@ -20,7 +20,7 @@ export default function ContactPage() {
             </a>
           </p>
 
-          <p className="bg-[#35364F] p-4 rounded-lg">
+          <p className="bg-[#1e1e30] p-4 rounded-lg">
             <FaPhone className="inline mr-2" />
             Phone Number:{""}
             <a href="tel:+306975564186" className="text-sky-400 hover:underline">
@@ -28,7 +28,7 @@ export default function ContactPage() {
             </a>
           </p>
 
-          <p className="bg-[#35364F] p-4 rounded-lg">
+          <p className="bg-[#1e1e30] p-4 rounded-lg">
             <FaLinkedin className="inline mr-2" />
             LinkedIn:{" "}
             <a href="https://www.linkedin.com/in/s-angelopoulos/" className="text-sky-400 hover:underline">
@@ -36,7 +36,7 @@ export default function ContactPage() {
             </a>
           </p>
 
-          <p className="bg-[#35364F] p-4 rounded-lg">
+          <p className="bg-[#1e1e30] p-4 rounded-lg">
             <FaGithub className="inline mr-2" />
             GitHub:{" "}
             <a href="https://github.com/nobaigiobaitsi" className="text-sky-400 hover:underline">
