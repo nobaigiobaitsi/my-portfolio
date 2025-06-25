@@ -1,5 +1,5 @@
-// src/app/contact/page.jsx
 'use client';
+import { FaGithub, FaLinkedin, FaPhone, FaEnvelope } from "react-icons/fa";
 
 import Link from "next/link";
 
@@ -15,20 +15,23 @@ export default function ContactPage() {
 
         <div className="space-y-4 text-center">
           <p className="bg-[#35364F] p-4 rounded-lg">
+            <FaEnvelope className="inline mr-2" />
             Email:{" "}
-            <a href="mailto:stavros@example.com" className="text-sky-400 hover:underline">
+            <a href="mailto:steveangelopoulos@gmail.com" className="text-sky-400 hover:underline">
               steveangelopoulos@gmail.com
             </a>
           </p>
 
           <p className="bg-[#35364F] p-4 rounded-lg">
+            <FaPhone className="inline mr-2" />
             Phone Number:{""}
-            <a href="" className="text-sky-400 hover:underline">
+            <a href="tel:+306975564186" className="text-sky-400 hover:underline">
               +30 697 5564 186
             </a>
           </p>
 
           <p className="bg-[#35364F] p-4 rounded-lg">
+            <FaLinkedin className="inline mr-2" />
             LinkedIn:{" "}
             <a href="https://www.linkedin.com/in/s-angelopoulos/" className="text-sky-400 hover:underline">
               linkedin.com/in/s-angelopoulos
@@ -36,8 +39,9 @@ export default function ContactPage() {
           </p>
 
           <p className="bg-[#35364F] p-4 rounded-lg">
+            <FaGithub className="inline mr-2" />
             GitHub:{" "}
-            <a href="https://github.com/yourusername" className="text-sky-400 hover:underline">
+            <a href="https://github.com/nobaigiobaitsi" className="text-sky-400 hover:underline">
               github.com/nobaigiobaitsi
             </a>
           </p>
