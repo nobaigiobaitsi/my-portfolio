@@ -9,7 +9,7 @@ import AnimatedSection from "@/components/AnimatedSection";
 export default function HomePage() {
   return (
 
-    <main className="px-4 sm:px-8 lg:px-16 mx-auto p-8 bg-gradient-to-br from-[#0a0a23] to-[#1a1a2e] min-h-screen text-[#e0e6ed]">
+    <main className="px-4 sm:px-8 lg:px-16 mx-auto bg-gradient-to-br from-[#0a0a23] to-[#1a1a2e] min-h-screen text-[#e0e6ed]">
       <AnimatedSection>
       <section className="text-center py-12 border-t border-gray-700">
         <h1 className="text-4xl font-bold mb-2">Stavros Angelopoulos</h1>
@@ -28,14 +28,14 @@ export default function HomePage() {
       <AnimatedSection>
       <section className="mb-12 py-12 border-t border-gray-700">
         <h2 className="text-2xl font-semibold mb-2">About Me</h2>
-        <p className="text-[#e0e6ed] bg-[#1f1f2e] p-6 rounded-lg mb-6 border border-[#2c2c3d] duration-300 ease-in-out hover:shadow-lg hover:border-sky-500 hover:shadow-sky-400/20 shadow-md transition-transform transform hover:scale-[1.03]">
+        <p className="text-[#e0e6ed] bg-[#1e1e30] p-6 rounded-lg mb-6 border border-[#2c2c3d] duration-300 ease-in-out hover:shadow-lg hover:border-sky-500 hover:shadow-sky-400/20 shadow-md transition-transform transform hover:scale-[1.03]">
           Although I studied Statistics, my true passion lies in software development. I am a passionate developer focused on building clean and efficient applications. Always following best practices and eager to learn new technologies and tools.
         </p>
-        <p className="text-[#e0e6ed] bg-[#1f1f2e] p-6 rounded-lg mb-6 border border-[#2c2c3d] duration-300 ease-in-out hover:shadow-lg hover:border-sky-500 hover:shadow-sky-400/20 shadow-md transition-transform transform hover:scale-[1.03]">
+        <p className="text-[#e0e6ed] bg-[#1e1e30] p-6 rounded-lg mb-6 border border-[#2c2c3d] duration-300 ease-in-out hover:shadow-lg hover:border-sky-500 hover:shadow-sky-400/20 shadow-md transition-transform transform hover:scale-[1.03]">
           I work with <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-cyan-300 font-semibold">Java</span>, <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-cyan-300 font-semibold">JavaScript</span>, <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-cyan-300 font-semibold">Python</span>, <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-cyan-300 font-semibold">SQL</span>, and <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-cyan-300 font-semibold">C#</span>, and I have built projects using frameworks like <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-cyan-300 font-semibold">React</span>, <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-cyan-300 font-semibold">Next.js</span>, <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-cyan-300 font-semibold">Django</span>, and <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-cyan-300 font-semibold">WPF</span>. I am equally comfortable on the frontend and backend, aiming to create seamless user experiences backed by solid logic and architecture. I strive to learn as much as possible and stay updated with the latest trends in software development.
         </p>
-        <p className="text-[#e0e6ed] bg-[#1f1f2e] p-6 rounded-lg mb-6 border border-[#2c2c3d] duration-300 ease-in-out hover:shadow-lg hover:border-sky-500 hover:shadow-sky-400/20 shadow-md transition-transform transform hover:scale-[1.03]">What makes me stand out is that I truly care about learning and growing as a developer. It started as a passion but now it has become my desired career path.</p>
-        <p className="text-[#e0e6ed] bg-[#1f1f2e] p-6 rounded-lg mb-6 border border-[#2c2c3d] duration-300 ease-in-out hover:shadow-lg hover:border-sky-500 hover:shadow-sky-400/20 shadow-md transition-transform transform hover:scale-[1.03]">On my free time, I enjoy cooking, exploring new cuisines, and experimenting with recipes. Also, I love watching movies and TV shows.</p>
+        <p className="text-[#e0e6ed] bg-[#1e1e30] p-6 rounded-lg mb-6 border border-[#2c2c3d] duration-300 ease-in-out hover:shadow-lg hover:border-sky-500 hover:shadow-sky-400/20 shadow-md transition-transform transform hover:scale-[1.03]">What makes me stand out is that I truly care about learning and growing as a developer. It started as a passion but now it has become my desired career path.</p>
+        <p className="text-[#e0e6ed] bg-[#1e1e30] p-6 rounded-lg mb-6 border border-[#2c2c3d] duration-300 ease-in-out hover:shadow-lg hover:border-sky-500 hover:shadow-sky-400/20 shadow-md transition-transform transform hover:scale-[1.03]">On my free time, I enjoy cooking, exploring new cuisines, and experimenting with recipes. Also, I love watching movies and TV shows.</p>
       </section>
       </AnimatedSection>
 
@@ -75,7 +75,7 @@ export default function HomePage() {
           </div>
 
           <div>
-            <h3 className="font-medium text-[#e0e6ed]">Tools</h3>
+            <h3 className="font-medium text-[#e0e6ed] ">Tools</h3>
             <ul className="space-y-1">
               <li><FaGitAlt className="inline mr-1 text-sky-400" title="Git" /> Git</li>
               <li><VscGithubInverted className="inline mr-1 text-sky-400" title="GitHub" /> GitHub</li>
@@ -96,9 +96,9 @@ export default function HomePage() {
               href="https://github.com/nobaigiobaitsi"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-4 bg-[#1f1f2e] border border-[#2c2c3d] hover:border-sky-500 hover:shadow-sky-400/20 shadow-md p-4 rounded-lg transition-transform transform hover:scale-[1.03]"
+              className="flex items-center gap-4 bg-[#1e1e30] border border-[#2c2c3d] hover:border-sky-500 hover:shadow-sky-400/20 shadow-md p-4 rounded-lg transition-transform transform hover:scale-[1.03]"
             >
-              <VscGithubInverted className="text-3xl text-sky-400" />
+              <VscGithubInverted className="text-3xl text-sky-400" title="GitHub" />
               <div>
                 <p className="text-[#e0e6ed] font-semibold">GitHub</p>
                 <p className="text-sm text-gray-400">nobaigiobaitsi</p>
@@ -109,9 +109,9 @@ export default function HomePage() {
               href="https://www.linkedin.com/in/s-angelopoulos/"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-4 bg-[#1f1f2e] border border-[#2c2c3d] hover:border-sky-500 hover:shadow-sky-400/20 shadow-md p-4 rounded-lg transition-transform transform hover:scale-[1.03]"
+              className="flex items-center gap-4 bg-[#1e1e30] border border-[#2c2c3d] hover:border-sky-500 hover:shadow-sky-400/20 shadow-md p-4 rounded-lg transition-transform transform hover:scale-[1.03]"
             >
-              <FaLinkedinIn className="text-3xl text-sky-400" />
+              <FaLinkedinIn className="text-3xl text-sky-400" title="LinkedIn" />
               <div>
                 <p className="text-[#e0e6ed] font-semibold">LinkedIn</p>
                 <p className="text-sm text-gray-400">Stavros Angelopoulos</p>
