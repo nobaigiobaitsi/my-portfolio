@@ -12,8 +12,12 @@ export default function HomePage() {
     <main className="px-4 sm:px-8 lg:px-16 mx-auto bg-gradient-to-br from-[#0a0a23] to-[#1a1a2e] min-h-screen text-[#e0e6ed]">
       <AnimatedSection>
       <section className="text-center py-12 border-t border-gray-700">
-        <h1 className="text-4xl font-bold mb-2">Stavros Angelopoulos</h1>
-        <p className="text-lg text-gray-400">Aspiring Software Developer</p>
+        <h1 className="text-4xl sm:text-5xl font-semibold text-[#e0e6ed] tracking-wide">
+          Stavros Angelopoulos
+        </h1>
+        <p className="mt-3 text-lg sm:text-xl text-gray-400 font-normal">
+          Software Developer
+        </p>
         <div className="flex justify-center gap-4 mt-4">
           <Link href="/projects" className="inline-block mt-4 bg-blue-500 hover:bg-blue-600 text-[#e0e6ed] px-6 py-2 rounded-lg shadow-md transition">
             My Projects
@@ -27,7 +31,7 @@ export default function HomePage() {
 
       <AnimatedSection>
       <section className="mb-12 py-12 border-t border-gray-700">
-        <h2 className="text-2xl font-semibold mb-2">About Me</h2>
+        <h2 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-cyan-300 mb-6 flex items-center justify-center gap-2">About Me</h2>
         <p className="text-[#e0e6ed] bg-[#1e1e30] p-6 rounded-lg mb-6 border border-[#2c2c3d] duration-300 ease-in-out hover:shadow-lg hover:border-sky-500 hover:shadow-sky-400/20 shadow-md transition-transform transform hover:scale-[1.03]">
           Although I studied Statistics, my true passion lies in software development. I am a passionate developer focused on building clean and efficient applications. Always following best practices and eager to learn new technologies and tools.
         </p>
@@ -41,7 +45,7 @@ export default function HomePage() {
 
       <AnimatedSection>
       <section className="mt-12 py-12 border-t border-gray-700">
-        <h2 className="text-2xl font-semibold mb-4">Tech Stack</h2>
+        <h2 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-cyan-300 mb-6 flex items-center justify-center gap-2">Tech Stack</h2>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 text-gray-400 bg-[#1e1e30] p-4 rounded-lg shadow-inner">
           <div>
@@ -89,7 +93,7 @@ export default function HomePage() {
 
       <AnimatedSection>
         <section className="mb-12 py-12 border-t border-gray-700">
-          <h2 className="text-2xl font-semibold mb-6 text-center">My Links</h2>
+          <h2 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-cyan-300 mb-6 flex items-center justify-center gap-2">My Links</h2>
 
           <div className="flex flex-col sm:flex-row justify-center items-center gap-6">
             <a
