@@ -16,8 +16,8 @@ export default function ProjectsPage() {
         </section>
       </AnimatedSection>
 
-        <AnimatedSection>
-        <section className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 py-12 border-t border-gray-700">
+      <AnimatedSection>
+        <section className="gap-8 py-12 border-t border-gray-700 w-full">
 
           <div className="bg-[#1e1e30] rounded-lg border border-[#2c2c3d] p-6 hover:border-sky-500 hover:shadow-sky-400/20 shadow-md transition-transform transform hover:scale-[1.03]">
             <h3 className="text-xl font-semibold text-[#e0e6ed] mb-2">
@@ -40,8 +40,8 @@ export default function ProjectsPage() {
         </section>
       </AnimatedSection>
 
-              <AnimatedSection>
-        <section className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 py-12 border-t border-gray-700">
+      <AnimatedSection>
+        <section className="gap-8 py-12 border-t border-gray-700 w-full">
 
           <div className="bg-[#1e1e30] rounded-lg border border-[#2c2c3d] p-6 hover:border-sky-500 hover:shadow-sky-400/20 shadow-md transition-transform transform hover:scale-[1.03]">
             <h3 className="text-xl font-semibold text-[#e0e6ed] mb-2">
@@ -71,8 +71,8 @@ export default function ProjectsPage() {
         </section>
       </AnimatedSection>
 
-              <AnimatedSection>
-        <section className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 py-12 border-t border-gray-700">
+      <AnimatedSection>
+        <section className="gap-8 py-12 border-t border-gray-700 w-full">
 
           <div className="bg-[#1e1e30] rounded-lg border border-[#2c2c3d] p-6 hover:border-sky-500 hover:shadow-sky-400/20 shadow-md transition-transform transform hover:scale-[1.03]">
             <h3 className="text-xl font-semibold text-[#e0e6ed] mb-2">
@@ -94,6 +94,56 @@ export default function ProjectsPage() {
           </div>
         </section>
       </AnimatedSection>
+
+      <AnimatedSection>
+        <section className="gap-8 py-12 border-t border-gray-700 w-full">
+
+          <div className="bg-[#1e1e30] rounded-lg border border-[#2c2c3d] p-6 hover:border-sky-500 hover:shadow-sky-400/20 shadow-md transition-transform transform hover:scale-[1.03]">
+            <h3 className="text-xl font-semibold text-[#e0e6ed] mb-2">
+              My portfolio Site
+            </h3>
+            <p className="text-gray-400 text-sm mb-4">
+              This very site you are currently viewing, built with Next.js, React, and Tailwind CSS. It showcases my projects, skills, and experience in a clean and modern design. The site is fully responsive and optimized for performance, providing a seamless user experience across devices.
+            </p>
+            <p className="text-sm text-sky-400 mb-2">Next.js · React · Tailwind CSS</p>
+            <div className="flex gap-4 mt-2">
+              <a
+                href="https://github.com/nobaigiobaitsi/my-portfolio.git"
+                target="_blank"
+                className="text-blue-500 hover:underline text-sm"
+              >
+                GitHub
+              </a>
+            </div>
+          </div>
+        </section>
+      </AnimatedSection>
+
+      <AnimatedSection>
+        <section className="text-center py-12 border-t border-gray-700 mx-auto">
+          <h2 className="text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-cyan-300">
+            And Many More!
+          </h2>
+          <p className="text-gray-400 mt-4 text-lg">
+            These are just a few selected projects. I am constantly exploring new ideas, building tools, and improving my skills through hands-on experience.
+          </p>
+          <p className="text-gray-400 mt-2 text-lg">
+            Check out my GitHub for more ongoing and experimental work.
+          </p>
+          <div className="mt-4">
+            <a
+              href="https://github.com/nobaigiobaitsi"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block text-sky-400 hover:text-sky-300 font-medium transition"
+            >
+            View more on GitHub
+            </a>
+          </div>
+        </section>
+      </AnimatedSection>
+
+
     </main>
   );
 }
