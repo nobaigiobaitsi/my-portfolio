@@ -17,7 +17,7 @@ export default function HomePage() {
           Stavros Angelopoulos
         </h1>
         <p className="mt-3 text-lg sm:text-xl text-gray-400 font-normal">
-          Software Developer
+          Aspiring Software Developer
         </p>
         <div className="flex justify-center gap-4 mt-4">
           <Link href="/projects" className="inline-block bg-gradient-to-r from-sky-500 to-cyan-400 hover:from-sky-600 hover:to-cyan-500 text-[#0a0a23] font-semibold px-8 py-3 rounded-full shadow-lg hover:shadow-cyan-400/30 transition-transform transform hover:scale-105">
